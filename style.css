@@ -1,0 +1,39 @@
+/* Write your CSS Here. */
+
+h2 {
+    text-align: center;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+input,
+textarea {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    min-width: 300px;
+    background: #e6e6e6;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+
+.danger {
+  border: 1px solid red;
+}
